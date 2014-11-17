@@ -1,0 +1,71 @@
+{
+  "title": "Log Search",
+  "services": {
+    "query": {
+      "list": {
+        "0": {
+          "query": "*",
+          "alias": "",
+          "color": "#7EB26D",
+          "id": 0,
+          "pin": false,
+          "type": "lucene"
+        }
+      },
+      "ids": [
+        0
+      ]
+    },
+    "filter": {
+      "list": {},
+      "ids": []
+    }
+  },
+  "rows": [
+    {
+      "title": "",
+      "height": "100px",
+      "editable": false,
+      "collapse": false,
+      "collapsable": false,
+      "panels": [
+        {
+          "error": false,
+          "span": 4,
+          "editable": false,
+          "group": [
+            "default"
+          ],
+          "type": "text",
+          "mode": "html",
+          "content": "<h1>Log Search</h1> Click the search icon",
+          "style": {},
+          "title": "",
+          "status": "Stable"
+        }
+      ],
+      "notice": false
+    }
+  ],
+  "editable": false,  
+  "style": "dark",
+  "failover": false,
+  "panel_hints": true,
+  "pulldowns": [],
+  "nav": [],
+  "loader": {
+    "save_gist": false,
+    "save_elasticsearch": true,
+    "save_local": true,
+    "save_default": true,
+    "save_temp": true,
+    "save_temp_ttl_enable": true,
+    "save_temp_ttl": "30d",
+    "load_gist": true,
+    "load_elasticsearch": true,
+    "load_elasticsearch_size": 20,
+    "load_local": true,
+    "hide": false
+  },
+  "refresh": false
+}
